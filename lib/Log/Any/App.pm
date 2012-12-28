@@ -11,7 +11,7 @@ use File::Spec;
 use Log::Any 0.11;
 use Log::Any::Adapter;
 
-our $VERSION = 0.41; # xVERSION
+our $VERSION = 0.42; # xVERSION
 
 our $ALT = "FWR";
 
@@ -898,7 +898,7 @@ Log::Any::App - An easy way to use Log::Any in applications
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
