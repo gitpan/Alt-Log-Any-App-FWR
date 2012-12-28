@@ -34,6 +34,7 @@
             "Alt::Base" : "0.01",
             "File::HomeDir" : 0,
             "File::Path" : "2.07",
+            "File::Write::Rotate" : "0.10",
             "JSON" : 0,
             "Log::Any" : "0.14",
             "Log::Any::Adapter" : "0.07",
@@ -58,6 +59,6 @@
          "url" : "http://github.com/sharyanto/perl-Alt-Log-Any-App-FWR"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

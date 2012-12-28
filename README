@@ -3,7 +3,7 @@ NAME
     Log::Dispatch::FileWriteRotate for file output
 
 VERSION
-    version 0.02
+    version 0.03
 
 DESCRIPTION
     This distribution contains an alternate implementation of Log::Any::App.

@@ -18,7 +18,7 @@ my %module_build_args = (
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Alt-Log-Any-App-FWR",
-  "dist_version" => "0.02",
+  "dist_version" => "0.03",
   "license" => "perl",
   "module_name" => "Alt::Log::Any::App::FWR",
   "recommends" => {},
@@ -27,6 +27,7 @@ my %module_build_args = (
     "Alt::Base" => "0.01",
     "File::HomeDir" => 0,
     "File::Path" => "2.07",
+    "File::Write::Rotate" => "0.10",
     "JSON" => 0,
     "Log::Any" => "0.14",
     "Log::Any::Adapter" => "0.07",
