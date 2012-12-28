@@ -897,7 +897,7 @@ Log::Any::App - An easy way to use Log::Any in applications
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -940,16 +940,6 @@ For more customization like categories, per-category level, per-output level,
 multiple outputs, string patterns, etc see L</USING AND EXAMPLES> and init().
 
 =head1 DESCRIPTION
-
-THIS MODULE IS AN ALTERNATIVE IMPLEMENTATION (Alt-Log-Any-App-FWR). See L<Alt>
-for more details about the Alt concept. This implementation uses a different
-backend for file output: L<Log::Dispatch::FileWriteRotate> instead of
-L<Log::Dispatch::FileRotate>. The goal is to interoperate more easily with other
-modules that uses L<File::Write::Rotate>, like L<Process::Govern>. The
-parameters are also slightly different (no more C<DatePattern>, adds C<period>
-and C<suffix>). The future 1.0 of Log::Any::App will probably also use
-Log::Dispatch::FileWriteRotate. The rest of the documentation is from the
-original Log::Any::App.
 
 IMPORTANT: Please read L</"ROAD TO 1.0"> on some incompatibilities in the near
 future, before 1.0 is released.

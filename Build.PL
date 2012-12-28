@@ -13,12 +13,12 @@ my %module_build_args = (
   "configure_requires" => {
     "Module::Build" => "0.3601"
   },
-  "dist_abstract" => "An easy way to use Log::Any in applications",
+  "dist_abstract" => "Log::Any::App which uses Log::Dispatch::FileWriteRotate for file output",
   "dist_author" => [
     "Steven Haryanto <stevenharyanto\@gmail.com>"
   ],
   "dist_name" => "Alt-Log-Any-App-FWR",
-  "dist_version" => "0.01",
+  "dist_version" => "0.02",
   "license" => "perl",
   "module_name" => "Alt::Log::Any::App::FWR",
   "recommends" => {},
