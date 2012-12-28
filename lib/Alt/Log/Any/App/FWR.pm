@@ -1,7 +1,7 @@
 package Alt::Log::Any::App::FWR;
 use base qw(Alt::Base);
 
-our $VERSION = '0.03'; # VERSION
+our $VERSION = '0.04'; # VERSION
 
 1;
 # ABSTRACT: Log::Any::App which uses Log::Dispatch::FileWriteRotate for file output
@@ -16,7 +16,7 @@ Alt::Log::Any::App::FWR - Log::Any::App which uses Log::Dispatch::FileWriteRotat
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
