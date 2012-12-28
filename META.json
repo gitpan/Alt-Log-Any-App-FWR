@@ -1,0 +1,63 @@
+{
+   "abstract" : "An easy way to use Log::Any in applications",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alt-Log-Any-App-FWR",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Rinci" : "0.01"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Alt::Base" : "0.01",
+            "File::HomeDir" : 0,
+            "File::Path" : "2.07",
+            "JSON" : 0,
+            "Log::Any" : "0.14",
+            "Log::Any::Adapter" : "0.07",
+            "Log::Any::Adapter::Log4perl" : "0.06",
+            "Log::Dispatch::Dir" : "0.10",
+            "Log::Dispatch::FileWriteRotate" : "0.01",
+            "Log::Dispatch::Syslog" : "2.29",
+            "Log::Log4perl" : "1.36",
+            "perl" : "5.008000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Slurp" : 0
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "homepage" : "http://metacpan.org/release/Alt-Log-Any-App-FWR",
+      "repository" : {
+         "url" : "http://github.com/sharyanto/perl-Alt-Log-Any-App-FWR"
+      }
+   },
+   "version" : "0.01"
+}
+
