@@ -1,7 +1,7 @@
 package Alt::Log::Any::App::FWR;
 use base qw(Alt::Base);
 
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
 
 1;
 # ABSTRACT: Log::Any::App which uses Log::Dispatch::FileWriteRotate for file output
@@ -16,7 +16,7 @@ Alt::Log::Any::App::FWR - Log::Any::App which uses Log::Dispatch::FileWriteRotat
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 
@@ -40,7 +40,7 @@ Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Steven Haryanto.
+This software is copyright (c) 2013 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
