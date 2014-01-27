@@ -3,7 +3,7 @@ NAME
     Log::Dispatch::FileWriteRotate for file output
 
 VERSION
-    version 0.07
+    version 0.08
 
 DESCRIPTION
     This distribution contains an alternate implementation of Log::Any::App.
@@ -19,11 +19,26 @@ DESCRIPTION
 SEE ALSO
     Alt
 
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Alt-Log-Any-App-FWR>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Alt-Log-Any-App-FWR>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Alt-Log-Any-App-FWR>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by Steven Haryanto.
+    This software is copyright (c) 2014 by Steven Haryanto.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
