@@ -3,7 +3,8 @@ NAME
     Log::Dispatch::FileWriteRotate for file output
 
 VERSION
-    version 0.08
+    This document describes version 0.09 of Alt::Log::Any::App::FWR (from
+    Perl distribution Alt-Log-Any-App-FWR), released on 2014-05-16.
 
 DESCRIPTION
     This distribution contains an alternate implementation of Log::Any::App.

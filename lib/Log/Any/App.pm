@@ -1021,7 +1021,7 @@ Log::Any::App - An easy way to use Log::Any in applications
 
 =head1 VERSION
 
-version 0.08
+This document describes version 0.09 of Log::Any::App (from Perl distribution Alt-Log-Any-App-FWR), released on 2014-05-16.
 
 =head1 SYNOPSIS
 

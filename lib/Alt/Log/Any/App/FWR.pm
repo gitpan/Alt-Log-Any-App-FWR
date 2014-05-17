@@ -1,7 +1,7 @@
 package Alt::Log::Any::App::FWR;
 use base qw(Alt::Base);
 
-our $VERSION = '0.08'; # VERSION
+our $VERSION = '0.09'; # VERSION
 
 1;
 # ABSTRACT: Log::Any::App which uses Log::Dispatch::FileWriteRotate for file output
@@ -18,7 +18,7 @@ Alt::Log::Any::App::FWR - Log::Any::App which uses Log::Dispatch::FileWriteRotat
 
 =head1 VERSION
 
-version 0.08
+This document describes version 0.09 of Alt::Log::Any::App::FWR (from Perl distribution Alt-Log-Any-App-FWR), released on 2014-05-16.
 
 =head1 DESCRIPTION
 
